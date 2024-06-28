@@ -1,0 +1,74 @@
+/* header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+576px
+*/
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url('../fonts/Bahnschrift.ttf') format('woff2');
+}
+
+
+header {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+footer {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 100px;
+}
+
+
+.center {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+.content {
+
+    padding: 25px;
+}
+
+
+p {
+     text-align: left;
+     padding-top: 2px;
+     padding-left: 30px;
+     padding-right: 30px;
+     font-size:40px;
+     text-indent:30px;
+     font-family: Bahnschrift;
+}
+
+
+.big {
+     text-align: left;
+     padding-top: 1px;
+     padding-bottom: 2px;
+     padding-left: 30px;
+     padding-right: 30px;
+     font-family: Bahnschrift;
+     font-size:45px;
+     text-indent: 0px;
+}
+
+
+a {
+    color: #000000; /* Цвет обычной ссылки */
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+   }
+   a:hover {
+    color: #800000; /* Цвет ссылки при наведении на нее курсора мыши */
+    text-decoration: underline; /* Добавляем подчеркивание */
+   }
+
+
+@media screen and (max-width: 768px) {
+
+}
